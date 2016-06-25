@@ -6,8 +6,6 @@
  * Time: 3:41 PM
  */
 
-$suffix = 'vmc';
-
 $option_type = array(
 	'text',
 	'textarea',
@@ -31,7 +29,8 @@ function get_theme_name() {
 }
 
 function get_suffix() {
-	return $this->suffix;
+	$suffix = 'vmc';
+	return $suffix;
 }
 
 function mix_id( $id ) {
