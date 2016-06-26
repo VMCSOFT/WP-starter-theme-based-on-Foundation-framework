@@ -15,7 +15,7 @@ function reg_scripts() {
 	//javascript
 	wp_enqueue_script( 'what-input', get_template_directory_uri() . '/js/vendor/what-input.js' );
 	wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/vendor/foundation.min.js' );
-	wp_enqueue_script( 'app', get_template_directory_uri() . '/js/custom.js' );
+	wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js' );
 }
 
 add_action( 'wp_enqueue_scripts', 'reg_scripts' );
