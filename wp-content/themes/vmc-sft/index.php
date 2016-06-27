@@ -5,8 +5,8 @@
  * Date: 6/20/16
  * Time: 11:45 AM
  */
-$h1_tag               = of_get_option( mix_id( 'h1_tag' ) );
-$homepage_description = of_get_option( mix_id( 'hompage_description' ) );
+$h1_tag               = of_get_option( def_id( 'h1_tag' ) );
+$homepage_description = of_get_option( def_id( 'hompage_description' ) );
 ?>
 
 <?php get_header() ?>

@@ -55,15 +55,15 @@ function get_theme_name() {
 	return $themename;
 }
 
-function get_suffix() {
-	$suffix = 'vmc';
-	return $suffix;
+function get_prefix() {
+	$prefix = 'vmc'; //@TODO: use your own prefix
+	return $prefix;
 }
 
-function mix_id( $id ) {
-	return get_suffix() . '_' . $id;
+function def_id( $id ) {
+	return get_prefix() . '_' . $id;
 }
 
-function mix_text_trans( $text ) {
+function text_trans( $text ) {
 	return __( $text, get_theme_name() );
 }

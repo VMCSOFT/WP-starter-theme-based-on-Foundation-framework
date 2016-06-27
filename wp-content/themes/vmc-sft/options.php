@@ -29,75 +29,75 @@ function optionsframework_options() {
 	$options = array();
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Basic Settings' ),
+		'name' => text_trans( 'Basic Settings' ),
 		'type' => 'heading'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Logo image' ),
-		'desc' => mix_text_trans( 'Website main logo' ),
-		'id'   => mix_id( 'logo_image' ),
+		'name' => text_trans( 'Logo image' ),
+		'desc' => text_trans( 'Website main logo' ),
+		'id'   => def_id( 'logo_image' ),
 		'std'  => '',
 		'type' => 'upload'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Logo width' ),
-		'desc' => mix_text_trans( 'Logo width in px ext: 100px or auto' ),
-		'id'   => mix_id( 'logo_width' ),
+		'name' => text_trans( 'Logo width' ),
+		'desc' => text_trans( 'Logo width in px ext: 100px or auto' ),
+		'id'   => def_id( 'logo_width' ),
 		'std'  => 'auto',
 		'type' => 'text'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Logo height' ),
-		'desc' => mix_text_trans( 'Logo height in px ext: 100px or auto' ),
-		'id'   => mix_id( 'logo_height' ),
+		'name' => text_trans( 'Logo height' ),
+		'desc' => text_trans( 'Logo height in px ext: 100px or auto' ),
+		'id'   => def_id( 'logo_height' ),
 		'std'  => 'auto',
 		'type' => 'text'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Main color' ),
-		'desc' => mix_text_trans( 'Website main color' ),
-		'id'   => mix_id( 'main_color' ),
+		'name' => text_trans( 'Main color' ),
+		'desc' => text_trans( 'Website main color' ),
+		'id'   => def_id( 'main_color' ),
 		'std'  => '',
 		'type' => 'color'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Secondary color' ),
-		'desc' => mix_text_trans( 'Website secondary color' ),
-		'id'   => mix_id( 'secondary_color' ),
+		'name' => text_trans( 'Secondary color' ),
+		'desc' => text_trans( 'Website secondary color' ),
+		'id'   => def_id( 'secondary_color' ),
 		'std'  => '',
 		'type' => 'color'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Home page' ),
+		'name' => text_trans( 'Home page' ),
 		'type' => 'heading'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Slider section' ),
-		'desc' => mix_text_trans( 'Slider shortcode' ),
-		'id'   => mix_id( 'slider_section' ),
+		'name' => text_trans( 'Slider section' ),
+		'desc' => text_trans( 'Slider shortcode' ),
+		'id'   => def_id( 'slider_section' ),
 		'std'  => '',
 		'type' => 'text'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'H1 tag' ),
-		'desc' => mix_text_trans( 'Heading text in homepage' ),
-		'id'   => mix_id( 'h1_tag' ),
+		'name' => text_trans( 'H1 tag' ),
+		'desc' => text_trans( 'Heading text in homepage' ),
+		'id'   => def_id( 'h1_tag' ),
 		'std'  => '',
 		'type' => 'text'
 	);
 
 	$options[] = array(
-		'name' => mix_text_trans( 'Home page description' ),
-		'desc' => mix_text_trans( 'Description under H1 tag' ),
-		'id'   => mix_id( 'hompage_description' ),
+		'name' => text_trans( 'Home page description' ),
+		'desc' => text_trans( 'Description under H1 tag' ),
+		'id'   => def_id( 'hompage_description' ),
 		'std'  => '',
 		'type' => 'editor'
 	);

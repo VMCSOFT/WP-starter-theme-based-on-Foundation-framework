@@ -5,10 +5,10 @@
  * Date: 6/20/16
  * Time: 11:45 AM
  */
-$logo       = of_get_option( mix_id( 'logo_image' ) );
-$logo_width = of_get_option( mix_id( 'logo_width' ) );
-$logo_heigh = of_get_option( mix_id( 'logo_height' ) );
-$slider     = of_get_option( mix_id( 'slider_section' ) );
+$logo       = of_get_option( def_id( 'logo_image' ) );
+$logo_width = of_get_option( def_id( 'logo_width' ) );
+$logo_heigh = of_get_option( def_id( 'logo_height' ) );
+$slider     = of_get_option( def_id( 'slider_section' ) );
 ?>
 
 <!doctype html>
