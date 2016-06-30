@@ -7,3 +7,4 @@ Installation:
 5. Start develope your own theme.
  
 Please email me jared@vmcsoft.com if there any problems.
+One of themes which started from this: http://jonqueecofriendly.com/
