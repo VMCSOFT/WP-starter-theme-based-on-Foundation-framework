@@ -6,5 +6,4 @@ Installation:
 4. Active Options framework (required) plugin and Meta slider (optional) plugin.
 5. Start develope your own theme.
  
-Please email me jared@vmcsoft.com if there any problems.
-One of themes which started from this: http://jonqueecofriendly.com/
+Please email me jared@vmcsoft.com if there any problems.One of themes which started from this: http://jonqueecofriendly.com/
