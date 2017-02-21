@@ -5,6 +5,8 @@ Installation:
 3. Upload theme and plugins to your WordPress root folder.
 4. Active Options framework (required) plugin and Meta slider (optional) plugin.
 5. Start develope your own theme.
- 
-Please email me jared@vmcsoft.com if there any problems.
-One of themes which started from this: http://jonqueecofriendly.com/
+
+Demo:
+
+1. http://jonqueecofriendly.com/
+2. http://datmachinpcb.com/
